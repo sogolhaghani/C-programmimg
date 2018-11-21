@@ -56,6 +56,17 @@ int main(){
          printf("i = %d from while", i);
     }
 
+
+ /***************************Continue****************************/  
+    int k = 2 ;
+    while(k < total){
+        k-- ;
+        if(k ==10) {
+            continue;
+        }
+        k += 3;
+    }
+
     return 0;
 }
 
