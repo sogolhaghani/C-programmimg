@@ -1,18 +1,57 @@
 // خطاهای موجود در برنامه را پیدا و حل کنید.
 
-include <stdio>
+
+//  پسوند .h باید قرار داده شود
+// علامت # باید قرار داده شود
+#include <stdio.h>
 
 int main()
 {
-
-    int a;
-    printf("The value of a is %d\n", &a);
+// مقدار دهی اولیه        
+    int a= 0;
+/*
+برای چاپ مقدار
+a
+نباید از اشاره گر استفاده کرد.
+*/    
+    printf("The value of a is %d\n", a);
+/*
+متغیر 
+b
+تعریف نشده است.
+*/    
+    int b = 0;
     printf("The value of b is %d\n", b);
-    print("Enter two value for a and b");
-    scanf("%d%d", &a, b);
+/*
+تابع 
+print
+باید به
+printf
+تبدیل شود
 
-    int .sum;
-    .sum <= a+b;
-    printf("sum value is : %f",.sum);
-    
+*/    
+    printf("Enter two value for a and b");
+/*
+هنگام خواندن از ورودی حتما تمامی متغیرها باید بوسیله اشاره گر به حافظه مقداری دهی شوند
+*/    
+    scanf("%d%d", &a, &b);
+/*
+تعریف نام متغیر اشتباه است.
+مقداردهی اولیه نشده است.
+*/
+    int sum = 0;
+/*
+دستور انتساب درست نمی باشد
+*/    
+    sum = a+b;
+/*
+برای نمایش مقادیر با نوع
+int
+از 
+%d
+استفاده شود.
+*/    
+    printf("sum value is : %d",sum);
+// خروجی تابع main مشخص نشده بود و باید قرار داده شود.
+    return 0;    
 }
