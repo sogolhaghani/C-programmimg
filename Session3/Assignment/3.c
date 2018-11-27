@@ -27,7 +27,7 @@ int main(){
         min2 = min1;
         index_min2 = index_min1;
         min1 = input;
-        index_min1 = 1;
+        index_min1 = 2;
     }else{
         min2 = input ;
         index_min2 = 2;
