@@ -48,60 +48,60 @@ void power(int x, int y)
 int cube(int y)
 {
     // int x = y * y * y ;
-    x = y * y * y ;
+    x = y * y * y;
     return x;
 }
 
 /********************ERRORs**************************/
 
-void power(int x, int y)
-    // {
-    //     int power = 1;
-    //     for (int i = 0; i < y; i++)
-    //     {
-    //         power *= x;
-    //     }
-    //     printf("%d", power);
-    //     return power;
-    // }
+//void power(int x, int y)
+// {
+//     int power = 1;
+//     for (int i = 0; i < y; i++)
+//     {
+//         power *= x;
+//     }
+//     printf("%d", power);
+//     return power;
+// }
 
-    // int square(int y)
-    // {
-    //      y * y;
-    // }
+// int square(int y)
+// {
+//      y * y;
+// }
 
-    // void power(int x, y)
-    // {
-    //     int power = 1;
-    //     for (int i = 0; i < y; i++)
-    //     {
-    //         power *= x;
-    //     }
-    //     printf("%d", power);
-    //     return power;
-    // }
+// void power(int x, y)
+// {
+//     int power = 1;
+//     for (int i = 0; i < y; i++)
+//     {
+//         power *= x;
+//     }
+//     printf("%d", power);
+//     return power;
+// }
 
-    // void power(int x, int y)
-    // {
-    //     int x = 1;
-    //     for (int i = 0; i < y; i++)
-    //     {
-    //         x *= x;
-    //     }
-    //     printf("%d", x);
-    // }
+// void power(int x, int y)
+// {
+//     int x = 1;
+//     for (int i = 0; i < y; i++)
+//     {
+//         x *= x;
+//     }
+//     printf("%d", x);
+// }
 
-    // void power(int x, int y)
-    // {
-    //     int power = 1;
-    //     for (int i = 0; i < y; i++)
-    //     {
-    //         power *= power;
-    //     }
-    //     printf("%d", power);
+// void power(int x, int y)
+// {
+//     int power = 1;
+//     for (int i = 0; i < y; i++)
+//     {
+//         power *= power;
+//     }
+//     printf("%d", power);
 
-    //     int square(int y)
-    //     {
-    //         return y * y;
-    //     }
-    // }
+//     int square(int y)
+//     {
+//         return y * y;
+//     }
+// }
