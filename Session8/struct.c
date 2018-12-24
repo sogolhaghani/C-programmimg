@@ -47,8 +47,8 @@ void main()
     }
 }
 
-void printCity(struct city)
+void printCity(struct city _city)
 {
-    printf("\tCity Name : %s\n", city.name);
-    printf("\tlatitude : %ld,\t longitude : %ld\n", city.latitude, city.longitude);
+    printf("\tCity Name : %s\n", _city.name);
+    printf("\tlatitude : %ld,\t longitude : %ld\n", _city.latitude, _city.longitude);
 }
