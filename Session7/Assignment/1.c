@@ -7,3 +7,41 @@
 آرایه 15 عضوی باشد.
 */
 
+#include <stdio.h>
+
+#define SIZE 15
+
+void initList(int *listPtr);
+int linearSearch(int *listPtr, int *searchItemPtr);
+int main()
+{
+    int list[SIZE];
+    int searchItem;
+    initList(list);
+    printf("\nPlease Enter number to search : ");
+    scanf("%d", &searchItem);
+    int found = linearSearch(list, &searchItem);
+    if(found == 1){
+        printf("item exist");
+    }else{
+        printf("Oops. Item not found");
+    }
+    return 0;
+}
+
+void initList(int *listPtr){
+    for(int i=0; i< SIZE; i++){
+        printf("\nPlease Enter number : ");
+        scanf("%d", listPtr);
+        listPtr++;
+    }
+}
+int linearSearch(int *listPtr, int *searchItemPtr){
+    for(int i=0; i< SIZE; i++){
+       if(*listPtr == *searchItemPtr){
+           return 1;
+       }
+       listPtr++;
+    }
+    return 0;
+}
