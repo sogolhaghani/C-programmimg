@@ -10,13 +10,11 @@ int main(){
 	return 0;
 }
 void reverse(char *s){
-	int  i;
 	char temp;
-	
-	for (i = 0; i<3; i++){
+	for (int i = 0, j=3; i<j; i++, j--){
 		temp = *(s + i);
-		*(s + i) = *(s + i + 1);
-		*(s + i + 1) = temp;
+		*(s + i) = *(s +j);
+		*(s + j) = temp;
 	}
 	
 	
